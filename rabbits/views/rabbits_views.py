@@ -25,10 +25,10 @@ class BancoView:
                 print("Digite um valor válido.")
 
     def exibir_conta_criada(self, conta):
-        print(f"\n🎉 Conta {conta.numero} criada com sucesso para {conta.titular.nome}!")
+        print(f"\nConta {conta.numero} criada com sucesso para {conta.titular.nome}!")
 
     def exibir_mensagem(self, msg):
-        print(f"\nℹ️ [Sistema]: {msg}")
+        print(f"\n[Sistema]: {msg}")
 
     def exibir_lista_contas(self, contas):
         print(f"\n{'Nº':<5} | {'TITULAR':<20} | {'SALDO':<12}")
@@ -43,7 +43,7 @@ class BancoView:
 
     def executar_interface(self):
         while True:
-            print("\n=== BANCO MULTICAMADAS (RABBITS) ===")
+            print("\n=== BANCO MULTICAMADAS ===")
             print("1. Cadastrar Nova Conta")
             print("2. Depositar")
             print("3. Sacar")
